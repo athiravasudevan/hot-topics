@@ -1,0 +1,255 @@
+
+    /*Import googlefont*/
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+
+
+    .logo img {
+        max-width: 40%;
+    }
+
+    body {
+        background-color: #B5FFF6;
+        line-height: 1.5rem;
+        margin: 2%;
+        font-size: 0.75rem;
+    }
+    .nav-bar{
+        max-width: 100%;
+        font-size: 1.5rem;
+        margin-top: 10%;
+    }
+    header {
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+    }
+    .nav-bar ul li a:link,
+    .nav-bar ul li a:visited {
+        background-color: #CCECFF;
+        color: #3045FF;
+    }
+    .nav-bar ul li a:hover{
+    background-color: #FF40AC;
+    }
+    .nav-bar a {
+        margin-bottom: 20%;
+    }
+
+    .masthead img {
+        max-width: 100%;
+    }
+
+    p {
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2rem;
+    }
+    footer{
+        text-align: center;
+        color: #000000;
+    }
+    .footertext{
+        text-align: center;
+    }
+    .row{
+         display: flex;
+        justify-content: center;
+    }
+    .row a{
+        padding:2%;
+    }
+    h3,h6,h2{
+        font-size: 1.5rem;
+        font-family: 'Roboto Slab', serif;
+    }
+    .err {
+        display: block;
+        font-size: 1.5rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-family: 'Roboto', sans-serif;
+    }
+    figcaption{
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    }
+    .portfolio img{
+        width: 400px;
+    }
+
+    .card1,.card2,.card3,.card4,.card5,.card6{
+        width: 90%;
+        background-color: #fff;
+        box-shadow: 0 4px 9px 0 rgba(0,0,1,0.2);
+        padding: 3%;
+        margin: 5%;
+
+    }
+    h3{
+        text-align: center;
+    }
+
+    /*mediaqiery starts here*/
+    @media screen and (min-width: 36rem) {
+        body {
+            line-height: 1.6rem;
+            font-size: 1rem;
+        }
+
+        .nav-bar {
+            width: 100%;
+            text-align: center;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+        }
+
+        .marginright,
+        .marginleft {
+            margin-right: 5%;
+        }
+
+        .nav-bar ul li a {
+            font-size: 2rem;
+        }
+
+        .container {
+            padding: 1%;
+        }
+
+        h2 ,h3 {
+            font-size: 2rem;
+        }
+
+        h3 {
+            text-align: center;
+        }
+        .err{
+            font-size: 1.5rem;
+        }
+
+        footer {
+            font-size: 2rem;
+            margin-top: 5%;
+
+        }
+        .portfolio {
+        clear: both;
+        margin-bottom: 10%;
+        }
+        .card1,.card2,.card3,.card4,.card5,.card6{
+            width: 40%;
+        }
+        .card1{
+            float: left;
+        }
+        .card2{
+            float: left;
+        }
+        .card3{
+            float: left;
+        }
+        .card4{
+            float: left;
+        }
+        .card5{
+            float: left;
+        }
+       
+
+
+        @media screen and (min-width: 80rem) {
+            body {
+                line-height: 1.5rem;
+                font-size: 1.25rem;
+                max-width: 120rem;
+                margin: auto;
+            }
+
+            .logo img {
+                width: 10%;
+                float: left;
+                margin-right: 0%;
+            }
+
+            .nav-bar {
+                width: 30%;
+                margin-top: 6%;
+                margin-left: 0;
+                margin-left: 0;
+                padding-left: 0;
+            }
+            h3{
+                text-align: center;
+            }
+
+            .nav-bar ul li {
+                display: inline-block;
+                width: 49%;
+                font-size: 2.5rem;
+            }
+            .container {
+                padding: 1%;
+            }
+
+            h2 {
+                width: 100%;
+                font-size: 3rem;
+                text-align: left;
+            }
+
+            h3 {
+                text-align: left;
+                font-size: 3rem;
+            }
+
+            p {
+                width: 60%;
+                font-size: 1.6rem;
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 5%;
+
+            }
+            .footertext p{
+            text-align: center;
+        }
+
+            .err {
+                font-size: 1.6rem;
+            }
+
+        .card1,.card2,.card3,.card4,.card5,.card6{
+            width: 25%;
+            margin-left: 2%;
+        }
+        .card1{
+            float: left;
+        }
+        .card2{
+            float: left;
+        }
+        .card3{
+            float: left;
+        }
+        .card4{
+            float: left;
+        }
+        .card5{
+            float: left;
+        }
+         .card6{
+            float: left;
+        }
+         .portfolio {
+        clear: both;
+        }
+        .footertext {
+        clear: both;
+        }
+
+        }
+
+    }
